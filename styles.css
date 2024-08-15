@@ -17,3 +17,27 @@ h1 {
 p, h2, li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.ingredients {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+}
+
+.steps {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 75%;
+    text-align: center;
+}
